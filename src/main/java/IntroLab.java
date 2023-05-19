@@ -10,7 +10,6 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -32,18 +31,10 @@ public class IntroLab {
 
         return message_to_print + message;
     }
+    public static String liuyif39(String my_name) {
+        return printLabMessage("Hello", my_name, true, "Nice");
+    }
 
-    /* TODO: In the space below, write your our method.
-     *       The method should be named with your utorID and should call
-     *       printLabMessage with some parameters.
-     *
-     * As a reference, we've provided the sample method exampleStudent.
-     * Make sure you document your method properly!
-     */
-
-    /**
-     * An example method that calls on printLabMessage.
-     */
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -53,13 +44,7 @@ public class IntroLab {
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
-        /* TODO: Add a call to the method you wrote in this main method,
-         *        and print the results of it.
-         *
-         * As a reference, we've provided a sample call to exampleStudent
-         * above. Afterwards: run this file to see the output!
-         */
-
+        System.out.println(liuyif39("Yifan"));
 
     }
 
